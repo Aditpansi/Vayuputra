@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>AI-Vayuputra</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  .arrow {
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  #navigation {
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  padding-right: 15px;
+  padding-top: 300px;
+  }
+  </style>
+  
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-text-orange">Vayuputra's AI</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-text-teal">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-text-teal">Contact</a>
+    <!--<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>-->
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-gray w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
+</div>
+
+<!-- Page content -->
+
+  <!-- home -->
+  <div class="w3-padding-large w3-padding-32 w3-margin-top" id="home">
+<!-- The App Section -->
+<div class="w3-padding-64 w3-white">
+  <div class="w3-row-padding">
+    <div class="w3-col l8 m6">
+      <h1 class="w3-jumbo"><b>AI Analytics</b></h1>
+      <h1 class="w3-xxxlarge w3-text-green"><b>Why Us?</b></h1>
+      <p><span class="w3-xlarge">Decision on the GO</span> Our AI analytic customized apps encompasses a wide array of applications across various industrial tech, revolutionizing how organizations leverage data to drive insights, make informed decisions, and enhance operations in manufacturing & supply chain</p>
+    </div>
+    <div class="w3-col l4 m6">
+      <img src="ai_photos/3.png" class="w3-image w3-right w3-hide-small" width="335" height="471">
+      <div class="w3-center w3-hide-large w3-hide-medium">
+        <img src="ai_photos/3.png" class="w3-image w3-margin-top" width="335" height="471">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Clarity Section -->
+<div class="w3-padding-64 w3-light-grey">
+  <div class="w3-row-padding">
+    <div class="w3-col l4 m6">
+      <img src="ai_photos/a3.jpeg" class="w3-image w3-right w3-hide-small" width="335" height="471">
+      <div class="w3-center w3-hide-large w3-hide-medium">
+        <img src="ai_photos/a3.jpeg" class="w3-image w3-margin-top" width="335" height="471">
+      </div>
+    </div>
+    <div class="w3-col l8 m6">
+      <h1 class="w3-jumbo"><b>Clarity</b></h1>
+      <h1 class="w3-xxxlarge w3-text-red"><b>Dashboards?</b></h1>
+      <p><span class="w3-xlarge">LIVE Analytics</span> Clear and concise visualization of data through charts and graphs is paramount in analytics. Our visual representations distill complex information into easily understandable insights, facilitating better decision-making</p>
+    </div>
+  </div>
+</div>
+
+<!-- The App Section 1 -->
+<div class="w3-padding-64 w3-white">
+  <div class="w3-row-padding">
+    <div class="w3-col l8 m6">
+      <h1 class="w3-jumbo"><b>Automate the Flow</b></h1>
+      <h1 class="w3-xxxlarge w3-text-blue"><b>Complex?</b></h1>
+      <p><span class="w3-xlarge">Adaptability PATTERN Learning</span> Our strategy in developing AI Models & Pieplines are tackling complex problems across various domains through Cloud services, On-Field Computers with sensors</p>
+    </div>
+    <div class="w3-col l4 m6">
+      <img src="ai_photos/c.jpeg" class="w3-image w3-right w3-hide-small" width="335" height="471">
+      <div class="w3-center w3-hide-large w3-hide-medium">
+        <img src="ai_photos/c.jpeg" class="w3-image w3-margin-top" width="335" height="471">
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+<!-- End page home -->
+
+<div class="w3-content w3-padding-large w3-margin-top w3-light-grey" id="about"><br>
+    <h3 class="w3-center">AIM & VISION</h3>
+    <hr>
+    <p>Our aim is to revolutionize the manufacturing and supply chain industries through cutting-edge computer vision analytics. We envision a future where businesses can harness the power of advanced visual data analysis to optimize every aspect of their production and distribution processes. By leveraging state-of-the-art computer vision technologies with customizable business rules, we empower manufacturers and supply chain operators to enhance efficiency, reduce costs, and improve decision-making accuracy.  <br> <br> Our vision is to become the go-to solution provider for businesses seeking to unlock the full potential of their operations through intelligent visual insights. Through innovation, collaboration, and a relentless pursuit of excellence, we strive to drive transformative change and create value for our customers in the rapidly evolving landscape of Industry 4.0 with Hardware Integrations</p>
+
+        <p><button class="w3-button w3-block w3-green w3-round" onclick="document.getElementById('download').style.display='block'">Our Projects </button></p>
+
+</div>
+
+<!-- Modal -->
+<div id="download" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('download').style.display='none'" class="fa fa-remove w3-xlarge w3-button w3-transparent w3-right w3-xlarge"></i>
+      <h2 class="w3-wide">Quality Controls</h2>
+      <p>From Freelancing Job, Got this Project to detect the multiple parts and missing parts on every tray at a manufacturing factory</p><br>
+		  <div class="w3-row-padding w3-margin-bottom">
+			<div class="w3-third w3-section">
+		      <img src="ai_photos/analytics1.png" class="w3-image w3-left w3-hover-opacity" width="335" height="471" onclick="onClick(this)"><!-- class has "w3-hide-small" which hides the image when the screen size is small-->
+			  <h4 class="w3-right">Easier Understanding Analytical Dashboard To Improve the Production</h4><br>
+			</div>
+			<div class="w3-third w3-section">
+		      <img src="ai_photos/sample1.png" class="w3-image w3-left w3-hover-opacity" width="335" height="471" onclick="onClick(this)"><!-- class has "w3-hide-small" which hides the image when the screen size is small-->
+			  <h4 class="w3-right">Detecting Multiple and Missing Objects (or) Abnormalities</h4><br>
+			</div>
+      <div id="navigation"><p><i class="arrow down"></i></p></div>
+		  </div>
+			<!-- Modal for full size images on click-->
+			<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+			  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+			  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+				<img id="img01" class="w3-image">
+				<p id="caption" class="w3-opacity w3-large"></p>
+			  </div>
+			</div>
+
+    </div>
+
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('download').style.display='none'" class="fa fa-remove w3-xlarge w3-button w3-transparent w3-right w3-xlarge"></i>
+      <h2 class="w3-wide">Augmented reality</h2>
+      <p>From the Customer's view, they are more like to use the products before buying so that the customers get to know about the product, That's why we are providing apps on Augmented reality helping Manufacturers or Retailers to demonstrate the products virtually to thier customers</p><br>
+      <div class="w3-row-padding w3-margin-bottom">
+        <div class="w3-third w3-section">
+            <img src="ai_photos/ar_1.png" class="w3-image w3-left w3-hover-opacity" width="335" height="471" onclick="onClick(this)"><!-- class has "w3-hide-small" which hides the image when the screen size is small-->
+          <h4 class="w3-right">Our product on AR to show the Upgraded Lock on the house door to show how the New Lock looks</h4><br>
+        </div>
+      </div>
+      <!-- Modal for full size images on click-->
+      <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <!-- Contact -->
+  <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+    <h3 class="w3-center">Contact</h3>
+    <hr>
+    <p>Talk to us for business improvement or Got questions or feedback? Reach out to us today! Our team is here to assist you every step of the way.</p>
+
+  <div class="w3-row-padding w3-margin-bottom">
+    <div class="w3-third w3-section">
+      <a href="tel:+91 769592921" style="text-decoration:none">
+        <div class="w3-container w3-blue w3-padding-16">
+          <div class="w3-center"><i class="fa fa-phone w3-xxxlarge"></i></div>
+          <div class="w3-clear"></div>
+          <h4 style="text-align:center;">Phone:<br> +91 769592921</h4>
+        </div>
+      </a>
+    </div>
+    <div class="w3-third w3-section">
+      <a href="https://wa.me/+919585543416" style="text-decoration:none">
+        <div class="w3-container w3-green w3-padding-16">
+          <div class="w3-center"><i class="fa fa-whatsapp w3-xxxlarge"></i></div>
+          <div class="w3-clear"></div>
+          <h4 style="text-align:center;">Phone:<br> +91 9585543416</h4>
+        </div>
+      </a>
+    </div>
+    <div class="w3-third w3-section">
+      <a href="mailto:ai@vayuputra.space" style="text-decoration:none">
+        <div class="w3-container w3-red w3-padding-16">
+          <div class="w3-center"><i class="fa fa-envelope w3-xxxlarge"></i></div>
+          <div class="w3-clear"></div>
+          <h4 style="text-align:center;">Mail:<br> ai@vayuputra.space</h4>
+        </div>
+      </a>
+    </div>
+  </div>
+	
+	    <p>Our Office at Bangalore, INDIA</p>
+    <br>
+    <p>Powered by AI Team at <a href="https://www.w3schools.com/w3css/default.asp" style="text-decoration:none" target="_blank" class="w3-hover-text-green">Vayuputra</a></p>
+
+  </div>
+
+<!-- End page content -->
+<!--</div>-->
+
+</body>
+
+<script>
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('download');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+</html>
+
